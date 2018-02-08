@@ -18,6 +18,7 @@ server.get('/:id', (req, res, next) => {
     });
   });
 });
+console.log('aasdasd');
 server.post('/', (req, res, next) => {
   const { MONGO_URL } = req.webtaskContext.data;
   // Do data sanitation here.
